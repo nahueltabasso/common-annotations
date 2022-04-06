@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 public class PasswordConstraintValidator implements ConstraintValidator<Password, String> {
 
     public static int MIN_PASSWORD_LENGTH = 8;
-    public static int MAX_PASSWORD_LENGTH = 30;
+    public static int MAX_PASSWORD_LENGTH = 100;
 
     @Override
     public void initialize(Password constraintAnnotation) {}
